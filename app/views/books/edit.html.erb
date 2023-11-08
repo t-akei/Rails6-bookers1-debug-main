@@ -1,8 +1,26 @@
 <h1>Editing Book</h1>
 
-<form>
-<%= render 'form', book: @book %>
-</form>
+<!--<form>-->
+  <%= render 'form', book: @book %>
+<!--</form>-->
+
+<!--<%= form_with model: @book, method: :post do |form| %>-->
+  
+  <!--<div class="field">-->
+    <!--<%= form.label :title, "Title" %><br>-->
+    <!--<%= form.text_field :title %>-->
+  <!--</div>-->
+  
+  <!--<div class="field">-->
+    <!--<%= form.label :body, "Body" %><br>-->
+    <!--<%= form.text_area :body %>-->
+  <!--</div>-->
+  
+  <!--<div class="actions">-->
+    <!--<%= form.submit "Update Book" %>-->
+  <!--</div>-->
+  
+<!--<% end %>-->
 
 <%= link_to 'Show', @book %> |
 <%= link_to 'Back', books_path %>
